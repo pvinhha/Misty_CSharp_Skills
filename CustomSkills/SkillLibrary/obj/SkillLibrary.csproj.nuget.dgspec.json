@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\My Robotics Developments\\Misty_2\\CSharp_Skills\\.NET-SDK-master\\C#\\Sample Projects\\CustomSkills\\SkillLibrary\\SkillLibrary.csproj": {}
+  },
+  "projects": {
+    "F:\\My Robotics Developments\\Misty_2\\CSharp_Skills\\.NET-SDK-master\\C#\\Sample Projects\\CustomSkills\\SkillLibrary\\SkillLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\My Robotics Developments\\Misty_2\\CSharp_Skills\\.NET-SDK-master\\C#\\Sample Projects\\CustomSkills\\SkillLibrary\\SkillLibrary.csproj",
+        "projectName": "SkillLibrary",
+        "projectPath": "F:\\My Robotics Developments\\Misty_2\\CSharp_Skills\\.NET-SDK-master\\C#\\Sample Projects\\CustomSkills\\SkillLibrary\\SkillLibrary.csproj",
+        "packagesPath": "C:\\Users\\phill\\.nuget\\packages\\",
+        "outputPath": "F:\\My Robotics Developments\\Misty_2\\CSharp_Skills\\.NET-SDK-master\\C#\\Sample Projects\\CustomSkills\\SkillLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\phill\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17134"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17134": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17134": {
+          "dependencies": {
+            "Google.Cloud.Dialogflow.V2": {
+              "target": "Package",
+              "version": "[1.2.0-beta01, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.9, )"
+            },
+            "MistyRobotics.Common": {
+              "target": "Package",
+              "version": "[0.8.178-beta, )"
+            },
+            "MistyRobotics.SDK": {
+              "target": "Package",
+              "version": "[0.8.92-beta, )"
+            },
+            "MistyRobotics.Tools": {
+              "target": "Package",
+              "version": "[0.8.16-beta, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "libgrpc_csharp_ext.arm7": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
